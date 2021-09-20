@@ -47,6 +47,8 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        jTextArea1.setForeground(new java.awt.Color(255, 51, 51));
         jTextArea1.setRows(5);
         jTextArea1.setText("Este es una aplicacion inspirada\nen un juego de celular, se trata \nde darle click al boton y ir \nacumulando puntos\n\n\n\nNota: Queria hacelo con persis-\ntencia en la variabe push\npero no entendi como hacerlo\n:(");
         jScrollPane2.setViewportView(jTextArea1);
